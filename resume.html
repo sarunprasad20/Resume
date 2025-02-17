@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section (Name & Photo) -->
+    <header>
+        <div class="header-content">
+            <div class="name-photo">
+                <img src="mine.jpg" alt="Your Photo" class="profile-photo">
+                <h1>Arunprasad</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="aboutme" class="section">
+        <h2>About Me</h2>
+        <p>Hello! I'm Arunprasad. I am a passionate web developer with a keen interest in front-end development, specializing in building responsive websites and creating engaging user experiences. I am proficient in web technologies such as HTML, CSS, JavaScript, and React.</p>
+        <p>Over the years, I have honed my skills through various projects, constantly learning and experimenting with new technologies. I take pride in delivering high-quality work that is user-centered, intuitive, and optimized for performance.</p>
+        <p>When I am not coding, I enjoy reading about new tech trends, exploring the world of UI/UX design, and playing video games.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Databases</h3>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>School Name</th>
+                <th>Percentage</th>
+                <th>Year</th>
+                <th>Certificate</th>
+            </tr>
+            <!-- 10th -->
+            <tr>
+                <td>10th Grade</td>
+                <td>XYZ School</td>
+                <td>85%</td>
+                <td>2015</td>
+                <td><a href="10th" class="view-certificate" target="_blank">View Certificate</a></td>
+            </tr>
+            <!-- 12th -->
+            <tr>
+                <td>12th Grade</td>
+                <td>XYZ School</td>
+                <td>90%</td>
+                <td>2017</td>
+                <td><a href="12th.jpg" class="view-certificate" target="_blank">View Certificate</a></td>
+            </tr>
+            <!-- College -->
+            <tr>
+                <td>Bachelor of Science in Computer Science</td>
+                <td>XYZ University</td>
+                <td>75%</td>
+                <td>2020</td>
+                <td><a href="certificateBSc.jpg" class="view-certificate" target="_blank">View Certificate</a></td>
+            </tr>
+            <!-- Master -->
+            <tr>
+                <td>Master of Science in Data Science</td>
+                <td>ABC University</td>
+                <td>80%</td>
+                <td>2023</td>
+                <td><a href="certificateMSc.jpg" class="view-certificate" target="_blank">View Certificate</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +1234567890</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
